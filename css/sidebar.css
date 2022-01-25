@@ -1,0 +1,27 @@
+
+html {
+    background: #292929;
+    height: 100%;
+}
+body {
+    color: white;
+    font-family: Sans-serif;
+}
+h1 {
+    background: #000000;
+    border-bottom: 1px solid #ffffff3b;
+    font-size: 12px;
+    font-weight: bold;
+    left: 0px;
+    margin: 0px 0px 10px 0px;
+    padding: 7px 10px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#buttons {
+    margin-top: 10px;
+}
+input[type=button] {
+    padding: 5px 10px;
+}

@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+	<title>Sidebar Recording Page</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="css/sidebar.css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://drive.doublerobotics.com/sidebar/v1/DRSidebarSDK.js"></script>
+	<script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+	<script type="text/javascript" src="js/sidebar.js"></script>
+	<div id="content">
+		<div id="buttons">
+			<input type="Button" onclick = updateRecordingStatusSidebar(this) value="Start Recording" id = "Recording Button Sidebar" />
+			<h4 id="Recording Status Sidebar" on>Status: Not Recording</h4>
+			<button type="button" id="view" onClick="javascript:viewArchive()" class="btn btn-danger" disabled>View Archive</button>
+		</div>
+		<div id="log"></div>
+	</div>
+
+</body>
+</html>
